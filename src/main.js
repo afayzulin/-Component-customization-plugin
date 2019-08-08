@@ -3,7 +3,7 @@ Vue.use(ComponentCustomize, {
     name: 'wrapper',
 });
 
-import store from '../store'
+import store from '/store'
 new Vue({
   el: '#root',
   store
